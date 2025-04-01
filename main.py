@@ -12,7 +12,7 @@ def calculator():
 		return "Error! Division by zero." if num2 == 0 else num1 / num2
 	else:
 		return "Invalid operator!"
-
+print("Hello from calculator!")
 print("Result:", calculator())
 
 
